@@ -3,7 +3,7 @@ with open('D1.txt', "r") as f:
 
 def increase():
     total = 0
-    p = 500
+    p = 9999
 
     for n in input:
         if int(n) > p:
@@ -15,7 +15,7 @@ def increase():
 
 def compare():
     total = 0
-    p = 10000
+    p = 9999
     for n in range(len(input)):
         try:
             if int((input[n])) + int((input[n+1])) + int((input[n+2])) > p:

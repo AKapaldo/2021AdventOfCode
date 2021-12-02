@@ -1,5 +1,5 @@
 with open('D1.txt', "r") as f:
-    input = f.read().split("\n")
+    input = f.readlines()
 
 def increase():
     total = 0
